@@ -4,8 +4,10 @@ class RockPaperScissors {
     public static void main(String [] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Hei! Pelataan vähän vanhaa kunnon Kivi - Paperi - Sakset -peliä!") ;
+        System.out.println() ;
         System.out.println("Muistathan, että säännöt meni siten, että paperi voittaa kiven,") ;
-        System.out.println(" kivi voittaa sakset ja sakset voittaa paperin?") ;
+        System.out.println("kivi voittaa sakset ja sakset voittaa paperin?") ;
+        System.out.println() ;
         System.out.print("Pelataan paras viidestä systeemillä, eli kolmesta voitosta.") ;
         System.out.println("") ;
         System.out.println("Aloitetaanpa sitten.") ;
